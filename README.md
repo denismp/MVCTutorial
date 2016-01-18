@@ -1,5 +1,6 @@
 # MVCTutorial
 LOOK AT FILE IN RAW MODE
+
 I created a Spring MVC Project.
 
 Do this with the File->New->Legacy Spring Project->Spring MVC Project, then make the changes below.
@@ -29,6 +30,7 @@ are from the web page
 
 This was added to the servlet-context.xml file.
 
+
 <!-- Adding to default 
 Added properties to beans:beans
 	xmlns:tx="http://www.springframework.org/schema/tx"
@@ -47,7 +49,10 @@ Added to beans:beans property xsi:schemaLocation
 	<tx:annotation-driven transaction-manager="transactionManager"/>
 <!-- Done adding to default -->
 
+
 This is the src/main/resources/META-INF/persitence.xml file:
+
+###
 
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.0"
@@ -66,6 +71,8 @@ This is the src/main/resources/META-INF/persitence.xml file:
 		</properties>
 	</persistence-unit>
 </persistence>
+
+###
 
 Apparently placing the above code into the src/main/resources/META-INF/persistence.xml file is found by spring for the database.  I suspect
 that this is from the 
