@@ -1,0 +1,24 @@
+I created a Spring MVC Project.
+
+I whacked the home.jsp and the HomeController.java
+that comes with the project setup.
+
+I then mixed in stuff from the web page
+http://scottsdigitalcommunity.blogspot.com/2013/05/developing-spring-mvc-project-using.html
+
+I used the domain name, com.spring.mvc, the same as the above web page.
+
+I added META-INF/persistence.xml
+
+Look for my hacks
+	Adding to default
+in
+	pom.xml
+	servlet-context.xml
+
+The other files
+	users.jsp
+	User.java
+	UserController.java
+	UserRepository.java
+are from the web page
