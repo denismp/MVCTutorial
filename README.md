@@ -28,6 +28,7 @@ The other files
 are from the web page
 
 This was added to the servlet-context.xml file.
+
 <!-- Adding to default 
 Added properties to beans:beans
 	xmlns:tx="http://www.springframework.org/schema/tx"
