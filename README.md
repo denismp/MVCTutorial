@@ -68,6 +68,9 @@ This is the src/main/resources/META-INF/persitence.xml file:
 
 Apparently placing the above code into the src/main/resources/META-INF/persistence.xml file is found by spring for the database.  I suspect
 that this is from the 
+
 	<!-- Handles HTTP GET requests for /resources/** by efficiently serving up static resources in the ${webappRoot}/resources directory -->
 	<resources mapping="/resources/**" location="/resources/" />
+
+
 in the generated servlet-context.xml file.
