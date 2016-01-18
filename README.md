@@ -1,5 +1,5 @@
 # MVCTutorial
-
+LOOK AT FILE IN RAW MODE
 I created a Spring MVC Project.
 
 Do this with the File->New->Legacy Spring Project->Spring MVC Project, then make the changes below.
